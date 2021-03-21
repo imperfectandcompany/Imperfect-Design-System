@@ -1,1 +1,1 @@
-test
+This page will be updated when it's not a priority. Please view the available components.
