@@ -13,6 +13,7 @@
 	  
 	  
       pages: [
+	  
         {
           path: 'components/overview',
           title: 'Overview',
@@ -20,43 +21,118 @@
         },
 		
         {
+          path: 'components/elements/form',
+          title: 'Form',
+          content: Catalog.pageLoader('sections/components/elements/form.md')
+        },		
+		
+        {
+          path: 'components/elements/presence',
+          title: 'Presence',
+          content: Catalog.pageLoader('sections/components/elements/presence.md')
+        },	
+		
+        {
+          path: 'components/elements/createpost',
+          title: 'Create Post',
+          content: Catalog.pageLoader('sections/components/elements/createpost.md')
+        },	
+		
+        {
           path: 'components/elements/avatars',
           title: 'Avatars',
           content: Catalog.pageLoader('sections/components/elements/avatars.md')
-        },		
+        },			
 		
       ]
     }, 
 
-
-	
 		    {
       title: 'Templates',
 	  
 	  
       pages: [
         {
-          path: 'templates/overview',
-          title: 'Overview',
-          content: Catalog.pageLoader('sections/templates/overview.md')
+          path: 'templates/login',
+          title: 'Login',
+          content: Catalog.pageLoader('sections/templates/login.md')
         },
 		
         {
-          path: 'templates/pages/empty',
-          title: 'Empty Page',
-          content: Catalog.pageLoader('sections/templates/pages/empty.md')
+          path: 'templates/signup',
+          title: 'Sign up',
+          content: Catalog.pageLoader('sections/templates/signup.md')
         },		
 		
         {
-          path: 'templates/pages/timeline-feed',
-          title: 'Timeline Feed Page',
-          content: Catalog.pageLoader('sections/templates/pages/timelinefeed.md')
+          path: 'templates/forgot-password',
+          title: 'Forgot Password',
+          content: Catalog.pageLoader('sections/templates/forgotpassword.md')
+        },
+
+        {
+          path: 'templates/reset-password',
+          title: 'Reset Password',
+          content: Catalog.pageLoader('sections/templates/resetpassword.md')
         },	
 
         {
-          path: 'templates/pages/settings',
-          title: 'Settings Page',
-          content: Catalog.pageLoader('sections/templates/pages/settings.md')
+          path: 'templates/redeem-token',
+          title: 'Redeem Token',
+          content: Catalog.pageLoader('sections/templates/redeemtoken.md')
+        },	
+
+        {
+          path: 'templates/create-post',
+          title: 'Create Post',
+          content: Catalog.pageLoader('sections/templates/createpost.md')
+        },
+
+        {
+          path: 'templates/contact-slider',
+          title: 'Contact Slider',
+          content: Catalog.pageLoader('sections/templates/contactslider.md')
+        },			
+		
+
+        {
+          path: 'templates/messages',
+          title: 'Messages',
+          content: Catalog.pageLoader('sections/templates/messages.md')
+        },
+
+		
+      ]
+    }, 
+
+	
+		    {
+      title: 'Pages',
+	  
+	  
+      pages: [
+        {
+          path: 'pages/overview',
+          title: 'Overview',
+          content: Catalog.pageLoader('sections/pages/overview.md')
+        },
+		
+        {
+          path: 'pages/empty',
+          title: 'Empty',
+          content: Catalog.pageLoader('sections/pages/empty.md')
+        },		
+		
+        {
+          path: 'pages/timeline-feed',
+          title: 'Timeline',
+          content: Catalog.pageLoader('sections/pages/timeline.md')
+        },	
+
+        {
+          path: 'pages/settings',
+          title: 'Settings',
+          content: Catalog.pageLoader('sections/pages/settings.md')
         },
 
 		
@@ -82,7 +158,7 @@
 
         {
           path: 'mediakit/imperfect-and-company',
-          title: 'Imperfect Gamers',
+          title: 'Imperfect and Company',
           content: Catalog.pageLoader('sections/mediakit/branches/imperfectandcompany.md')
         },	
 	
