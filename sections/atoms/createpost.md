@@ -1,7 +1,7 @@
 Elements used:
 [Avatar](/library/#/components/elements/avatars)
-Input
-Button
+[Button](/components/form?a=buttons)
+[Input](/components/form?a=field)
 
 ```html
 responsive: true

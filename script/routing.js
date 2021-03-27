@@ -9,135 +9,96 @@
         },
 		
 		    {
-      title: 'Components',
+      title: 'Atoms',
 	  
 	  
       pages: [
 	  
         {
-          path: 'components/overview',
-          title: 'Overview',
-          content: Catalog.pageLoader('sections/components/overview.md')
+          path: 'atoms/intro',
+          title: 'Intro',
+          content: Catalog.pageLoader('sections/atoms/intro.md')
         },
 		
         {
-          path: 'components/elements/form',
-          title: 'Form',
-          content: Catalog.pageLoader('sections/components/elements/form.md')
-        },		
+          path: 'atoms/buttons',
+          title: 'Buttons',
+          content: Catalog.pageLoader('sections/atoms/buttons.md')
+        },
 		
         {
-          path: 'components/elements/presence',
-          title: 'Presence',
-          content: Catalog.pageLoader('sections/components/elements/presence.md')
-        },	
+          path: 'atoms/input',
+          title: 'Input',
+          content: Catalog.pageLoader('sections/atoms/input.md')
+        },				
 		
         {
-          path: 'components/elements/createpost',
-          title: 'Create Post',
-          content: Catalog.pageLoader('sections/components/elements/createpost.md')
-        },	
-		
-        {
-          path: 'components/elements/avatars',
+          path: 'atoms/avatars',
           title: 'Avatars',
-          content: Catalog.pageLoader('sections/components/elements/avatars.md')
+          content: Catalog.pageLoader('sections/atoms/avatars.md')
         },			
 		
       ]
-    }, 
-
-		    {
-      title: 'Templates',
-	  
-	  
-      pages: [
-        {
-          path: 'templates/login',
-          title: 'Login',
-          content: Catalog.pageLoader('sections/templates/login.md')
-        },
-		
-        {
-          path: 'templates/signup',
-          title: 'Sign up',
-          content: Catalog.pageLoader('sections/templates/signup.md')
-        },		
-		
-        {
-          path: 'templates/forgot-password',
-          title: 'Forgot Password',
-          content: Catalog.pageLoader('sections/templates/forgotpassword.md')
-        },
-
-        {
-          path: 'templates/reset-password',
-          title: 'Reset Password',
-          content: Catalog.pageLoader('sections/templates/resetpassword.md')
-        },	
-
-        {
-          path: 'templates/redeem-token',
-          title: 'Redeem Token',
-          content: Catalog.pageLoader('sections/templates/redeemtoken.md')
-        },	
-
-        {
-          path: 'templates/create-post',
-          title: 'Create Post',
-          content: Catalog.pageLoader('sections/templates/createpost.md')
-        },
-
-        {
-          path: 'templates/contact-slider',
-          title: 'Contact Slider',
-          content: Catalog.pageLoader('sections/templates/contactslider.md')
-        },			
-		
-
-        {
-          path: 'templates/messages',
-          title: 'Messages',
-          content: Catalog.pageLoader('sections/templates/messages.md')
-        },
-
-		
-      ]
-    }, 
-
+    },
 	
 		    {
-      title: 'Pages',
+      title: 'Molecules',
+	  
+	  
+      pages: [
+	  
+        {
+          path: 'molecules/intro',
+          title: 'Intro',
+          content: Catalog.pageLoader('sections/molecules/intro.md')
+        },
+		
+        {
+          path: 'molecules/login',
+          title: 'Login',
+          content: Catalog.pageLoader('sections/molecules/login.md')
+        },		
+		
+        {
+          path: 'molecules/searchbar',
+          title: 'Search Bar',
+          content: Catalog.pageLoader('sections/molecules/searchbar.md')
+        },
+		
+	
+		
+      ]
+    }, 	
+	
+
+		    {
+      title: 'Organisms',
 	  
 	  
       pages: [
         {
-          path: 'pages/overview',
-          title: 'Overview',
-          content: Catalog.pageLoader('sections/pages/overview.md')
+          path: 'organisms/intro',
+          title: 'Intro',
+          content: Catalog.pageLoader('sections/organisms/intro.md')
+        },	  
+	  
+        {
+          path: 'organisms/login',
+          title: 'Login',
+          content: Catalog.pageLoader('sections/organisms/login.md')
         },
+			
 		
         {
-          path: 'pages/empty',
-          title: 'Empty',
-          content: Catalog.pageLoader('sections/pages/empty.md')
-        },		
-		
-        {
-          path: 'pages/timeline-feed',
-          title: 'Timeline',
-          content: Catalog.pageLoader('sections/pages/timeline.md')
-        },	
-
-        {
-          path: 'pages/settings',
-          title: 'Settings',
-          content: Catalog.pageLoader('sections/pages/settings.md')
-        },
-
+          path: 'organisms/header',
+          title: 'Header',
+          content: Catalog.pageLoader('sections/organisms/header.md')
+        },			
 		
       ]
     }, 
+
+
 	
 	
 		    {
